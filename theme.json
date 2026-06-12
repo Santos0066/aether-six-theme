@@ -1,6 +1,137 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"settings": {},
-	"styles": {}
+
+	"settings": {
+		"appearanceTools": true,
+
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "1280px"
+		},
+
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"name": "Primary",
+					"color": "#635BFF"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#00D4FF"
+				},
+				{
+					"slug": "success",
+					"name": "Success",
+					"color": "#10B981"
+				},
+				{
+					"slug": "warning",
+					"name": "Warning",
+					"color": "#F59E0B"
+				},
+				{
+					"slug": "error",
+					"name": "Error",
+					"color": "#EF4444"
+				},
+				{
+					"slug": "background",
+					"name": "Background",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#F7F8FC"
+				},
+				{
+					"slug": "text",
+					"name": "Text",
+					"color": "#0F172A"
+				}
+			]
+		},
+
+		"spacing": {
+			"spacingSizes": [
+				{
+					"slug": "xs",
+					"size": "8px",
+					"name": "XS"
+				},
+				{
+					"slug": "sm",
+					"size": "16px",
+					"name": "SM"
+				},
+				{
+					"slug": "md",
+					"size": "24px",
+					"name": "MD"
+				},
+				{
+					"slug": "lg",
+					"size": "32px",
+					"name": "LG"
+				},
+				{
+					"slug": "xl",
+					"size": "48px",
+					"name": "XL"
+				}
+			]
+		},
+
+		"typography": {
+			"fluid": true,
+
+			"fontSizes": [
+				{
+					"slug": "small",
+					"size": "14px",
+					"name": "Small"
+				},
+				{
+					"slug": "body",
+					"size": "18px",
+					"name": "Body"
+				},
+				{
+					"slug": "h4",
+					"size": "24px",
+					"name": "H4"
+				},
+				{
+					"slug": "h3",
+					"size": "32px",
+					"name": "H3"
+				},
+				{
+					"slug": "h2",
+					"size": "40px",
+					"name": "H2"
+				},
+				{
+					"slug": "h1",
+					"size": "56px",
+					"name": "H1"
+				}
+			]
+		}
+	},
+
+	"styles": {
+		"color": {
+			"background": "#FFFFFF",
+			"text": "#0F172A"
+		},
+
+		"typography": {
+			"fontSize": "18px",
+			"lineHeight": "1.6"
+		}
+	}
 }
