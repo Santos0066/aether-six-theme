@@ -70,3 +70,11 @@ Small 14px
 
     --aether-shadow-glow:
     0 0 40px rgba(99, 91, 255, 0.35);
+
+# Base Typography
+
+Body
+Headings
+Links
+Lists
+Selection

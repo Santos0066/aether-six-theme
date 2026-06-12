@@ -1,0 +1,56 @@
+body {
+	font-family: var(--aether-font-primary);
+	font-size: 18px;
+	line-height: 1.6;
+
+	color: var(--aether-text);
+
+	background: var(--aether-bg);
+
+	text-rendering: optimizeLegibility;
+
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p {
+	margin-bottom: var(--aether-space-md);
+}
+
+a {
+	color: var(--aether-primary);
+
+	text-decoration: none;
+
+	transition: color var(--aether-transition-fast);
+}
+
+a:hover {
+	color: var(--aether-accent);
+}
+
+ul,
+ol {
+	padding-left: var(--aether-space-lg);
+}
+
+::selection {
+	background: var(--aether-primary);
+	color: white;
+}
+
