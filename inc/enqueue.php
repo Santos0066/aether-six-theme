@@ -75,3 +75,14 @@ wp_enqueue_style(
 	),
 	wp_get_theme()->get( 'Version' )
 );
+
+wp_enqueue_style(
+	'aether-hero',
+	get_theme_file_uri(
+		'/assets/css/components/hero.css'
+	),
+	array(
+		'aether-cards'
+	),
+	wp_get_theme()->get( 'Version' )
+);
