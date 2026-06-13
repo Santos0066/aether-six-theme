@@ -1,0 +1,57 @@
+.aether-faq {
+
+	display: flex;
+
+	flex-direction: column;
+
+	gap: 1rem;
+}
+
+.aether-faq-item {
+
+	border: 1px solid var(--aether-color-border);
+
+	border-radius: 16px;
+
+	overflow: hidden;
+
+	background: var(--aether-color-surface);
+}
+
+.aether-faq-question {
+
+	padding: 1.25rem;
+
+	cursor: pointer;
+
+	font-weight: 600;
+}
+
+.aether-faq-answer {
+
+	padding: 0 1.25rem 1.25rem;
+
+	opacity: .8;
+
+	line-height: 1.7;
+}
+
+summary {
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+.aether-faq-question::after {
+
+	content: "+";
+
+	float: right;
+}
+
+details[open] .aether-faq-question::after {
+
+	content: "−";
+}

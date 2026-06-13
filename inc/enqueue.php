@@ -108,3 +108,25 @@ wp_enqueue_style(
 	),
 	wp_get_theme()->get( 'Version' )
 );
+
+wp_enqueue_style(
+	'aether-faq',
+	get_theme_file_uri(
+		'/assets/css/components/faq.css'
+	),
+	array(
+		'aether-testimonials'
+	),
+	wp_get_theme()->get( 'Version' )
+);
+
+wp_enqueue_style(
+	'aether-stats',
+	get_theme_file_uri(
+		'/assets/css/components/stats.css'
+	),
+	array(
+		'aether-faq'
+	),
+	wp_get_theme()->get( 'Version' )
+);
