@@ -64,3 +64,14 @@ wp_enqueue_style(
 	),
 	wp_get_theme()->get( 'Version' )
 );
+
+wp_enqueue_style(
+	'aether-cards',
+	get_theme_file_uri(
+		'/assets/css/components/cards.css'
+	),
+	array(
+		'aether-buttons'
+	),
+	wp_get_theme()->get( 'Version' )
+);
