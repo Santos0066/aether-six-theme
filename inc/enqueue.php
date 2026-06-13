@@ -53,3 +53,14 @@ add_action(
 	'wp_enqueue_scripts',
 	'aether_enqueue_assets'
 );
+
+wp_enqueue_style(
+	'aether-buttons',
+	get_theme_file_uri(
+		'/assets/css/components/buttons.css'
+	),
+	array(
+		'aether-sections'
+	),
+	wp_get_theme()->get( 'Version' )
+);

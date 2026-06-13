@@ -96,3 +96,15 @@ Narrow
 Default
 Compact
 Large
+
+# Buttons
+
+Primary
+
+Secondary
+
+Ghost
+
+Focus State
+
+Disabled State

@@ -1,0 +1,77 @@
+.aether-button {
+	display: inline-flex;
+
+	align-items: center;
+
+	justify-content: center;
+
+	gap: 0.5rem;
+
+	padding: 0.875rem 1.5rem;
+
+	border-radius: 12px;
+
+	font-weight: 600;
+
+	text-decoration: none;
+
+	cursor: pointer;
+
+	transition:
+		background-color .2s ease,
+		color .2s ease,
+		transform .2s ease;
+}
+
+.aether-button-primary {
+	background: var(--aether-color-primary);
+
+	color: white;
+}
+
+.aether-button-primary:hover {
+	transform: translateY(-2px);
+}
+
+.aether-button-secondary {
+
+	background: transparent;
+
+	border: 1px solid var(--aether-color-border);
+
+	color: var(--aether-color-text);
+}
+
+.aether-button-secondary:hover {
+
+	background:
+		var(--aether-color-surface);
+}
+
+.aether-button-ghost {
+
+	background: transparent;
+
+	color: var(--aether-color-text);
+}
+
+.aether-button-ghost:hover {
+
+	background:
+		var(--aether-color-surface);
+}
+
+.aether-button:focus-visible {
+
+	outline: 2px solid
+		var(--aether-color-primary);
+
+	outline-offset: 3px;
+}
+
+.aether-button:disabled {
+
+	opacity: .5;
+
+	cursor: not-allowed;
+}
