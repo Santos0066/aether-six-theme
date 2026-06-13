@@ -1,0 +1,97 @@
+.aether-pricing-card {
+
+	position: relative;
+
+	background: var(--aether-color-surface);
+
+	border: 1px solid var(--aether-color-border);
+
+	border-radius: 24px;
+
+	padding: 2rem;
+
+	display: flex;
+
+	flex-direction: column;
+
+	gap: 1.5rem;
+}
+
+.aether-pricing-card:hover {
+
+	transform: translateY(-4px);
+
+	border-color:
+		var(--aether-color-primary);
+}
+
+.aether-pricing-card-featured {
+
+	border-width: 2px;
+
+	border-color:
+		var(--aether-color-primary);
+}
+
+.aether-pricing-badge {
+
+	position: absolute;
+
+	top: -12px;
+
+	right: 20px;
+
+	padding: .4rem .8rem;
+
+	border-radius: 999px;
+
+	font-size: .8rem;
+
+	font-weight: 600;
+
+	background:
+		var(--aether-color-primary);
+
+	color: white;
+}
+
+.aether-pricing-title {
+
+	font-size: 1.25rem;
+
+	font-weight: 700;
+}
+
+.aether-pricing-price {
+
+	font-size: 3rem;
+
+	font-weight: 800;
+
+	line-height: 1;
+}
+
+.aether-pricing-features {
+
+	list-style: none;
+
+	padding: 0;
+
+	margin: 0;
+
+	display: flex;
+
+	flex-direction: column;
+
+	gap: .75rem;
+}
+
+.aether-pricing-features li {
+
+	display: flex;
+
+	gap: .5rem;
+
+	align-items: center;
+}
+

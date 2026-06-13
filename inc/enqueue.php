@@ -86,3 +86,25 @@ wp_enqueue_style(
 	),
 	wp_get_theme()->get( 'Version' )
 );
+
+wp_enqueue_style(
+	'aether-pricing',
+	get_theme_file_uri(
+		'/assets/css/components/pricing.css'
+	),
+	array(
+		'aether-hero'
+	),
+	wp_get_theme()->get( 'Version' )
+);
+
+wp_enqueue_style(
+	'aether-testimonials',
+	get_theme_file_uri(
+		'/assets/css/components/testimonials.css'
+	),
+	array(
+		'aether-pricing'
+	),
+	wp_get_theme()->get( 'Version' )
+);
