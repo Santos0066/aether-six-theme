@@ -1,0 +1,28 @@
+.aether-container {
+	width: 100%;
+	max-width: var(--aether-container-default);
+
+	margin-inline: auto;
+
+	padding-inline: var(--aether-space-lg);
+}
+
+.aether-container-narrow {
+	width: 100%;
+
+	max-width: var(--aether-container-narrow);
+
+	margin-inline: auto;
+
+	padding-inline: var(--aether-space-lg);
+}
+
+.aether-container-wide {
+	width: 100%;
+
+	max-width: var(--aether-container-wide);
+
+	margin-inline: auto;
+
+	padding-inline: var(--aether-space-lg);
+}

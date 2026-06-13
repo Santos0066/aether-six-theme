@@ -1,0 +1,13 @@
+.aether-section {
+	padding-block:
+		var(--aether-space-5xl);
+}
+
+.aether-section-sm {
+	padding-block:
+		var(--aether-space-3xl);
+}
+
+.aether-section-lg {
+	padding-block: 160px;
+}

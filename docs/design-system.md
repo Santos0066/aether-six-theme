@@ -78,3 +78,21 @@ Headings
 Links
 Lists
 Selection
+
+# Containers
+
+Default
+Wide
+Narrow
+
+# Grid
+
+2 Columns
+3 Columns
+4 Columns
+
+# Sections
+
+Default
+Compact
+Large
