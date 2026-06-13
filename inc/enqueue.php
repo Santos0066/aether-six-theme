@@ -130,3 +130,25 @@ wp_enqueue_style(
 	),
 	wp_get_theme()->get( 'Version' )
 );
+
+wp_enqueue_style(
+	'aether-brands',
+	get_theme_file_uri(
+		'/assets/css/components/brands.css'
+	),
+	array(
+		'aether-stats'
+	),
+	wp_get_theme()->get( 'Version' )
+);
+
+wp_enqueue_style(
+	'aether-dashboard',
+	get_theme_file_uri(
+		'/assets/css/components/dashboard.css'
+	),
+	array(
+		'aether-brands'
+	),
+	wp_get_theme()->get( 'Version' )
+);

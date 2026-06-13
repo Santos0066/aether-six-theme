@@ -85,13 +85,9 @@
 
 .aether-hero-mockup {
 
-	min-height: 420px;
+	display: flex;
 
-	border-radius: 24px;
+	align-items: center;
 
-	background:
-		var(--aether-color-surface);
-
-	border:
-		1px solid var(--aether-color-border);
+	justify-content: center;
 }
